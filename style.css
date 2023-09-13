@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://2.bp.blogspot.com/-W5iyT9PnEUk/UJY4HQouywI/AAAAAAAAMFw/noPCRuPFsuc/s1600/autumn_season_wallpaper-28.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+  
+}
+
+span{
+    font-size: 30px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 10px;  
+}
+.day1{
+    background-color:rgb(245, 208, 152);
+   
+}
+.container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;   
+} 
+.container{
+    margin-top: 10px;
+    margin-left: 300px;
+    width: 680px;
+    height: 500px;
+    
+
+}
+.mon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 315px;
+    width: 660px; 
+    font-weight: bolder; 
+    color:white;
+}
+.container > div:hover{
+    opacity: 0.8;
+    transform: scale(0.98);
+    cursor: pointer;
+}
+.day1{
+    border-radius: 10px;
+    border: 1px solid crimson;
+} 
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 89px;
+    height: 93px;  
+    border-radius: 10px;
+    background-color:crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    
+    
+   
+}
+.text{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+.day2:hover .overlay{
+    opacity: 1;
+    
+}
+.day2{
+    background-color:rgb(245, 208, 152);
+    border-radius: 10px;
+    border: 3px solid crimson;
+}
+
+ 
+    
+
+
+  
+
+
+
+  
+  
+
